@@ -30,3 +30,24 @@ nav a {
 nav a:hover {
   color: #fff;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  border: dotted #D282A6;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about-me {
+  max-width: 550px;
+  flex-wrap: wrap;
+}
+
+.my-pic {
+  width: 400px;
+  height: auto;
+}
