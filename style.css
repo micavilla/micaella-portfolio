@@ -92,7 +92,48 @@ main {
   justify-content: space-between;
 }
 
+.sub-content div{
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  flex-basis: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4% 0;
+}
 
+.sub-content div#horiseon-refactor{
+  margin-right: 0;
+  flex-basis: 100%;
+  background-image: url(./assets/screencapture-micavilla-github-io-horiseon-refactor-2023-06-23-14_36_35.png);
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+}
+
+.work-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-item>a {
+  text-decoration-line: none;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 90% auto;
+  font-weight: bold;
+}
+
+h3.item-label{
+  display: block;
+  padding: 5px 10px;
+  border: 5px inset #E8B4BC;
+  background-color: pink;
+  color: gray;
+}
 
 #contact-me ul{
   list-style-type: none;
