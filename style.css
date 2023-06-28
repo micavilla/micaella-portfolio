@@ -97,10 +97,13 @@ main {
 
 .sub-content div {
   text-align: center;
-  flex-basis: 30%;
   display: flex;
+  flex-basis: 45%;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 4% 0;
+  height: 300px;
+  width: 300px;
 }
 
 .work-item {
@@ -120,9 +123,11 @@ main {
 #prework {
   background-image: url(./assets/preworkscreencap.png);
   background-size: cover;
-  flex-basis: 45%;
-  height: 300px;
-  width: 300px;
+}
+
+#coming-soon {
+  background-image: url(./assets/ponyo.jpg);
+  background-size: cover;
 }
 
 .work-item > a {
@@ -136,19 +141,18 @@ main {
 h3 {
   display: block;
   font-size: 20px;
-  margin: 50% auto;
+  margin: 112px auto;
   font-weight: bold;
+  text-align: center;
 }
 
 h3.item-title{
   display: block;
   padding: 5px 10px;
-  text-align: center;
   border: 5px inset gray;
   background-color: pink;
   color: #394648;
 }
-
 
 #horiseon-refactor > h3 {
   margin: 200px auto;
