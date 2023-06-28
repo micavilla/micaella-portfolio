@@ -191,6 +191,16 @@ h3.item-title{
   color: #F7C7DB;
 }
 
+footer {
+  text-align: center;
+  background-color: #9E7682;
+  height: 50px;
+}
+
+footer p {
+  padding-top: 12px;
+}
+
 @media screen and (max-width: 1024px) {
   .sub-content div{
     flex-basis:100%;
