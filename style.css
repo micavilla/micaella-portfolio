@@ -25,6 +25,7 @@ header {
   color: #ffff;
   width: 100%;
   text-align: center;
+  border-bottom: 5px solid #8E4162;
 }
 
 nav {
@@ -53,11 +54,12 @@ main {
 }
 
 .pic {
-  background-color: pink;
+  background-color: #ECD5DF;
   padding: 10px;
   width: 100%;
   display: flex;
   justify-content: center;
+  border-bottom: 5px solid #8E4162;
 }
 
 #my-pic {
@@ -104,11 +106,16 @@ main {
   margin: 4% 0;
   height: 300px;
   width: 300px;
+  opacity: 80%;
 }
 
-/* .sub-content div:hover {
-
-} */
+.sub-content div:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
 
 .work-item {
   border: 4px solid #E8B4BC;
@@ -154,6 +161,7 @@ h3.item-title{
   display: block;
   padding: 5px 10px;
   border: 5px inset gray;
+  border-radius: 5%;
   background-color: pink;
   color: #394648;
 }
@@ -164,11 +172,12 @@ h3.item-title{
 
 #contact-me ul{
   list-style-type: none;
+  padding-top: 10px;
 }
 
 #contact-me ul li {
   display: inline-block;
-  margin: 0 35px;
+  margin: 0 50px;
 }
 
 #contact-me a {
