@@ -4,10 +4,12 @@
   margin: 0;
 }
 
+/* allows smooth scrolling to target sections from nav links rather than cutting to  */
 html {
   scroll-behavior: smooth;
 }
 
+/* base rules for all text  */
 body {
   background-color: #3A3238;
   margin: 0 auto;
@@ -18,6 +20,7 @@ body {
   display: block;
 }
 
+/* styling for header containing nav bar  */
 header {
   padding: 20px;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,6 +31,7 @@ header {
   border-bottom: 5px solid #8E4162;
 }
 
+/* styling for nav bar  */
 nav {
   padding-top: 15px;
   text-align: center;
@@ -49,10 +53,7 @@ nav a:hover {
   color: #fff;
 }
 
-main {
-  display: block;
-}
-
+/* added background for image section  */
 .pic {
   background-color: #ECD5DF;
   padding: 10px;
@@ -68,6 +69,7 @@ main {
   border-radius: 25%;
 }
 
+/* content, title, and sub-content styling and positioning rules heavily mirroring Dahlia's CSS; adjusted values for personal preferences  */
 .content {
   max-width: 85%;
   position: relative;
@@ -96,7 +98,7 @@ main {
   margin-top: 3%;
   justify-content: space-between;
 }
-
+/* parameters for smaller images and display rules for all work images  */
 .sub-content div {
   text-align: center;
   display: flex;
@@ -109,6 +111,7 @@ main {
   opacity: 80%;
 }
 
+/* hover effects for all work images  */
 .sub-content div:hover {
   opacity: 100%;
   -webkit-transform: scale(1.2);
@@ -117,11 +120,13 @@ main {
   transition: 1s ease;
 }
 
+/* styling for work images  */
 .work-item {
   border: 4px solid #E8B4BC;
   border-radius: 5%;
 }
 
+/* image and parameters for the largest work item  */
 #horiseon-refactor {
   margin-right: 0;
   flex-basis: 100%;
@@ -131,6 +136,7 @@ main {
   width: 850px;
 }
 
+/* images for smaller work items  */
 #prework {
   background-image: url(./assets/preworkscreencap.png);
   background-size: cover;
@@ -141,14 +147,17 @@ main {
   background-size: cover;
 }
 
+/* eliminates underline  */
 .work-item > a {
   text-decoration-line: none;
 }
 
+/* margin added so title for first image centers  */
 #horiseon-refactor > a > h3 {
   margin-top: 175px;
 }
 
+/* styling for work image titles  */
 h3 {
   display: block;
   font-size: 20px;
@@ -166,13 +175,10 @@ h3.item-title{
   color: #394648;
 }
 
-#horiseon-refactor > h3 {
-  margin: 200px auto;
-}
-
+/* styling for contact section  */
 #contact-me ul{
   list-style-type: none;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 #contact-me ul li {
@@ -197,10 +203,12 @@ footer {
   height: 50px;
 }
 
+/* padding added on the top to center the text within the footer  */
 footer p {
   padding-top: 12px;
 }
 
+/* standard iPad width 1024px set precedence  */
 @media screen and (max-width: 1024px) {
   .sub-content div{
     flex-basis:100%;
