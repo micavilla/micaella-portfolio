@@ -118,6 +118,7 @@ nav a:hover {
   -ms-transform: scale(1.2);
   transform: scale(1.1);
   transition: 1s ease;
+  cursor: pointer;
 }
 
 /* styling for work images  */
