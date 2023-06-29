@@ -131,7 +131,7 @@ nav a:hover {
 #horiseon-refactor {
   margin-right: 0;
   flex-basis: 100%;
-  background-image: url(./assets/screencapture-micavilla-github-io-horiseon-refactor-2023-06-23-14_36_35.png);
+  background-image: url(./screencapture-micavilla-github-io-horiseon-refactor-2023-06-23-14_36_35.png);
   background-size: cover;
   height: 400px;
   width: 850px;
@@ -139,12 +139,12 @@ nav a:hover {
 
 /* images for smaller work items  */
 #prework {
-  background-image: url(./assets/preworkscreencap.png);
+  background-image: url(./preworkscreencap.png);
   background-size: cover;
 }
 
 #coming-soon {
-  background-image: url(./assets/ponyo.jpg);
+  background-image: url(./ponyo.jpg);
   background-size: cover;
 }
 
