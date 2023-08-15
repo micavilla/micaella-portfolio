@@ -129,22 +129,22 @@ nav a:hover {
 }
 
 /* image and parameters for the largest work item  */
-#horiseon-refactor {
+#jumpit {
   margin-right: 0;
   flex-basis: 100%;
-  background-image: url(./screencapture-micavilla-github-io-horiseon-refactor-2023-06-23-14_36_35.png);
+  background-image: url(./jumpit-screenshot.png);
   background-size: cover;
   height: 400px;
   width: 850px;
 }
 
 /* images for smaller work items  */
-#prework {
-  background-image: url(./preworkscreencap.png);
+#techblog {
+  background-image: url(./techblog-screenshot.png);
   background-size: cover;
 }
 
-#coming-soon {
+#what2eat {
   background-image: url(./homepage\ centered\ screenshot.png);
   background-size: cover;
 }
