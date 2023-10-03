@@ -7,6 +7,6 @@ Starting from scratch, this webpage was created to showcase the knowledge and sk
 A huge shoutout to my classmate, Dahlia Guido, for allowing me to mirror her HTML and CSS structure for the main content. These structures were applied to my main HTML tag and CSS for classes 'content', 'title', and 'sub-content' (comments added pointing to these aforementioned lines of code). Dahlia's Github profile: https://github.com/CypherNyx
 
 ## Usage
-![portfolio screenshot](assets/portfolio-screenshot-v3.png)
+![portfolio screenshot](assets/portfolio-ss.png)
 
 https://micavilla.github.io/micaella-portfolio/
